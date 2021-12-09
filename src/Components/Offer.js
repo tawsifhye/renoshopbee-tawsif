@@ -10,7 +10,7 @@ const Offer = () => {
     return (
         <>
             <div className='container-fluid'>
-                <div className="row row-cols-4 text-center p-5" style={{ backgroundColor: "#F5F6F9" }}>
+                <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 row-cols-xl-4 text-center p-5" style={{ backgroundColor: "#F5F6F9" }}>
                     <div>
                         <img src={special_offer} alt="" className='p-3' />
                         <h6>SPECIAL OFFERS</h6>
@@ -35,7 +35,7 @@ const Offer = () => {
             </div>
 
             <div className="container-fluid">
-                <div className="row row-cols-3">
+                <div className="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 row-cols-xl-3">
                     <div style={{ backgroundColor: "#2E3348" }}>
                         <img className='img-fluid p-5' src={offer1} alt="" />
                     </div>

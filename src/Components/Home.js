@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Banner from './Banner';
 import BestSellers from './BestSellers';
+import FeaturedProducts from './FeaturedProducts';
 import Navbar from './Navbar';
 import Offer from './Offer';
 
@@ -17,6 +18,7 @@ const Home = () => {
             <Banner />
             <BestSellers handleAddToCart={handleAddToCart} />
             <Offer />
+            <FeaturedProducts handleAddToCart={handleAddToCart} />
         </div>
     );
 };

@@ -46,6 +46,10 @@
     padding: 5%;
 }
 
+.card .fa-shopping-cart:hover {
+    cursor: pointer;
+}
+
 .card .fa-heart {
 
     position: absolute;

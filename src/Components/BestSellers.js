@@ -6,7 +6,7 @@ const BestSellers = (props) => {
     return (
         <>
             <div className="container-fluid row mt-5 p-5">
-                <div className="row row-cols-5">
+                <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-5 row-cols-xl-5">
                     <div className="col d-flex flex-column pt-5 m">
                         <h3>BEST SELLERS</h3>
                         <h6 className="text-success">The best productions from us</h6>

@@ -1,0 +1,24 @@
+.home-banner {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.home-banner::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(233, 230, 230, 0.808);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.3;
+    z-index: -1;
+}

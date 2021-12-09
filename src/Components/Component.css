@@ -57,3 +57,16 @@
     margin-top: 50px;
     padding: 5%;
 }
+
+.nav-cart::after {
+    content: attr(value);
+    font-size: 12px;
+    background: #198754;
+    color: white;
+    border-radius: 50%;
+    padding: 3px;
+    position: relative;
+    left: -8px;
+    top: -10px;
+    opacity: 0.9;
+}

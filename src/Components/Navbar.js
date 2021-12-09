@@ -1,7 +1,8 @@
 import React from 'react';
-
+import '../Components/Component.css'
 const Navbar = (props) => {
     const { cart } = props;
+    const items = cart.length;
     console.log(cart);
     return (
         <>
@@ -55,8 +56,7 @@ const Navbar = (props) => {
                                 <a className="nav-link" href="#">ACCESSORIES</a>
                             </li>
                         </ul>
-                        <span><i className="fas fa-shopping-cart ms-0"></i>{cart.length}</span>
-
+                        <span><i className="fas fa-shopping-cart nav-cart ms-0" value={cart.length}></i></span>
                     </div>
                 </div>
             </nav>

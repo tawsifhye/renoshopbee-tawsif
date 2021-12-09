@@ -26,22 +26,31 @@ const Navbar = () => {
                     </span>
                 </span>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <a class="navbar-brand fw-bold" href="#"><span className="text-success">RENOSHOP</span>BEE</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav mx-auto">
+                        <ul class="navbar-nav mx-auto fw-bold">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#">HOME</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
+                                <a class="nav-link" href="#">WOMEN</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="nav-link" href="#">MEN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">KIDS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">JEWELLERY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ACCESSORIES</a>
                             </li>
                         </ul>
                         <span><i class="fas fa-shopping-cart ms-0"></i>3</span>

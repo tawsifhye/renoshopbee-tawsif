@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Banner from './Banner';
 import BestSellers from './BestSellers';
 import FeaturedProducts from './FeaturedProducts';
+import Footer from './Footer';
 import FormSection from './FormSection';
 import Navbar from './Navbar';
 import Offer from './Offer';
@@ -21,6 +22,7 @@ const Home = () => {
             <Offer />
             <FeaturedProducts handleAddToCart={handleAddToCart} />
             <FormSection />
+            <Footer />
         </div>
     );
 };

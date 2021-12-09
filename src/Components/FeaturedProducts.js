@@ -8,7 +8,6 @@ const FeaturedProducts = (props) => {
             <h1 className='text-center'>FEATURED PRODUCTS</h1>
             <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-5 row-cols-xl-5 p-4">
                 {
-
                     products.map((product) => (<div key={product} className="col">
                         <div className="card h-100 product">
                             <img src={watch} className="card-img-top" alt="..." />

@@ -22,3 +22,38 @@
     opacity: 0.3;
     z-index: -1;
 }
+
+.fa-star {
+    color: orange;
+}
+
+.card {
+    border: none;
+}
+
+.card img {
+    position: relative;
+}
+
+.card .fa-shopping-cart {
+
+    position: absolute;
+    background: green;
+    color: white;
+    top: 0;
+    right: 0;
+    margin: 3%;
+    padding: 5%;
+}
+
+.card .fa-heart {
+
+    position: absolute;
+    background: green;
+    color: white;
+    top: 20;
+    right: 0;
+    margin: 3%;
+    margin-top: 50px;
+    padding: 5%;
+}

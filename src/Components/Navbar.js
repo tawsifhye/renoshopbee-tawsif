@@ -7,7 +7,7 @@ const Navbar = (props) => {
     return (
         <>
             <div className="bg-dark">
-                <span className="navbar-nav me-auto mb-2 d-flex flex-row">
+                <div className="navbar-nav me-auto mb-2 d-flex flex-column flex-sm-column flex-md-column flex-lg-row">
                     <li className="nav-item me-3">
                         <span className="nav-link text-white"><i className="fas fa-phone-alt"></i></span>
                     </li>
@@ -20,14 +20,14 @@ const Navbar = (props) => {
                     <li className="nav-item">
                         <span className="nav-link text-white">info@company.com</span>
                     </li>
-                    <span className="d-flex ms-auto mt-2">
+                    <div className="d-flex ms-sm-0 ms-lg-auto mt-2">
                         <li><i className="fab fa-facebook-f text-white me-5"></i></li>
                         <li><i className="fab fa-twitter text-white me-5"></i></li>
                         <li><i className="fab fa-instagram text-white me-5"></i></li>
                         <li><i className="fab fa-linkedin-in text-white me-5"></i></li>
                         <li><i className="fab fa-behance text-white me-5"></i></li>
-                    </span>
-                </span>
+                    </div>
+                </div>
             </div>
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container-fluid">

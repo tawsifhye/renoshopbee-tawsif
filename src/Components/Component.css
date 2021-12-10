@@ -83,3 +83,10 @@
     text-decoration: none;
     color: black;
 }
+
+@media (max-width: 991px) {
+    .card .fa-heart {
+        margin-top: 100px;
+
+    }
+}
